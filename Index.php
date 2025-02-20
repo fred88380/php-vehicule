@@ -8,11 +8,14 @@
 <body>
     <h1>Gestion des Véhicules</h1>
    <?php
-    require_once 'vehicule.php';
-    require_once 'quatreroue.php';
-    require_once 'deuxroue.php';
-    require_once 'voiture.php';
-    require_once 'camion.php';
+   error_reporting(E_ALL);
+   ini_set('display_errors', '1');
+   
+    require_once 'Vehicule.php';
+    require_once 'Quatre_Roues.php';
+    require_once 'Deux_Roues.php';
+    require_once 'Voiture.php';
+    require_once 'Camion.php';
     ?>
 </body>
 </html>
